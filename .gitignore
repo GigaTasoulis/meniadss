@@ -1,0 +1,41 @@
+# ========== PHP / Symfony ==========
+/vendor/
+/var/
+/public/bundles/
+/public/js/
+/public/css/
+/public/build/
+/node_modules/
+/.env.local
+/.env.*.local
+/.phpunit.result.cache
+
+# Symfony cache/logs/sessions
+/var/cache/
+/var/log/
+/var/sessions/
+/var/test/
+
+# Composer artifacts
+/composer.lock
+
+# Doctrine Migrations
+/migrations/*.sql
+
+# Yarn / NPM
+yarn-error.log
+npm-debug.log
+
+# OS-specific or IDE-specific
+.idea/
+/.vscode/
+/.DS_Store
+Thumbs.db
+
+# Docker files (if used)
+/docker-compose.override.yml
+/.env.docker
+
+# Build artifacts (if any)
+coverage/
+build/
